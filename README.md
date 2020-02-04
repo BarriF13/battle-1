@@ -7,7 +7,7 @@ Now that we have a basic understanding of HTTP, response-request mechanisms, Sin
 ###### Battle capabilities:
 
 As two Players
-- [ ] We want to Start a fight by entering our Names and seeing them
+- [x] We want to Start a fight by entering our Names and seeing them
 - [ ] As two Players, We want to switch turns
 
 As Player 1:
@@ -27,7 +27,8 @@ Ruby, Sinatra
 _tba_
 
 ###### Testing
-_tba_
+* Feature testing with Capybara
+* Unit testing with Rspec : `rspec`
 
 ###### week 3 @ Makers Academy
 week 3 @ Makers : setting up a web project with testing frameworks
