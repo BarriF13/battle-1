@@ -11,8 +11,8 @@ As two Players
 - [ ] As two Players, We want to switch turns
 
 As Player 1:
-- [ ] I want to see Player 2's Hit Points
-- [ ] I want to attack Player 2, and I want to get a confirmation
+- [x] I want to see Player 2's Hit Points
+- [x] I want to attack Player 2, and I want to get a confirmation
 - [ ] I want my attack to reduce Player 2's HP by 10
 - [ ] I want to see my own hit points
 - [ ] I want Player 2 to attack me, and I want to get a confirmation
