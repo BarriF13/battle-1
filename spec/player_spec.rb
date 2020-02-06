@@ -16,12 +16,7 @@ describe Player do
     end
   end
 
-  describe "#attack" do
-    it "damages the player" do
-      expect(josh).to receive(:receive_damage)
-      mrtl.attack(josh)
-    end
-  end
+ 
 
   describe "#receive_damage" do
     it "reduces player 2 hitpoints by 10" do

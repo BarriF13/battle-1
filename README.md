@@ -13,7 +13,7 @@ As two Players
 As Player 1:
 - [x] I want to see Player 2's Hit Points
 - [x] I want to attack Player 2, and I want to get a confirmation
-- [ ] I want my attack to reduce Player 2's HP by 10
+- [x] I want my attack to reduce Player 2's hit points by 10
 - [ ] I want to see my own hit points
 - [ ] I want Player 2 to attack me, and I want to get a confirmation
 - [ ] I want Player 2's attack to reduce my HP by 10
