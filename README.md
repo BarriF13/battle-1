@@ -2,7 +2,7 @@
 =========================
  
 ###### The idea
-Now that we have a basic understanding of HTTP, response-request mechanisms, Sinatra, and Capybara we are going to construct a project that uses these technologies.
+With a basic understanding of HTTP, response-request mechanisms, Sinatra, and Capybara, this is a project that uses these technologies.
 
 ###### Battle capabilities:
 
@@ -14,24 +14,29 @@ As Player 1:
 - [x] I want to see Player 2's Hit Points
 - [x] I want to attack Player 2, and I want to get a confirmation
 - [x] I want my attack to reduce Player 2's hit points by 10
-- [ ] I want to see my own hit points
-- [ ] I want Player 2 to attack me, and I want to get a confirmation
-- [ ] I want Player 2's attack to reduce my HP by 10
+- [x] I want to see my own hit points
+- [x] I want Player 2 to attack me, and I want to get a confirmation
+- [x] I want Player 2's attack to reduce my HP by 10
 - [ ] I want to see a 'Lose' message if I reach 0HP first
 
 ###### Built with
 
-Ruby, Sinatra 
+Ruby, Sinatra, HTML, CSS
 
 ###### How to run
-_tba_
+_link tba_
 
 ###### Testing
-* Feature testing with Capybara
+* Feature/browser testing with Capybara: `rackup`
 * Unit testing with Rspec : `rspec`
 
-###### week 3 @ Makers Academy
-week 3 @ Makers : setting up a web project with testing frameworks
+###### notes
+This was week 3 @ Makers Academy: <br>
+Goal: to set up a web project with testing frameworks
+* The project is unfortunately unfinished as we got to the end of the week; the last user story is not implemented, so the game never ends!<br>
+<br>_I will revisit this in time._
 
 ###### Collaborators
-[Myrtle](https://github.com/Mrtly) 
+[Myrtle](https://github.com/Mrtly), [Barri](https://github.com/BarriF13), [Haydon](https://github.com/Kefuri), [Josh](https://github.com/jlblumberg) , [Dafna](https://github.com/Dlibmanw) 
+
+Thank you guys! :)
