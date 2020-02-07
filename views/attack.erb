@@ -1,10 +1,15 @@
 <div style=" background: #EDDE5C;width: 100%;height: 100%;position: fixed;	top: 0;left: 0; ">
-    <div style="font-size: 20px; color: #F7EDF0; text-align: center; margin: 200px auto;">
+    <div style="font-size: 36px; color: #F7EDF0; text-align: center; margin: 200px auto;">
         <h2 style="color:#9B2915">
-            <%= @game.player_1.name %> attacked <%= @game.player_2.name %> !</h2></h2>
+            <%= @game.current_turn.name %> attacked <%= @game.opponent_of(@game.current_turn).name %> !</h2></h2>
         <h3 style="color: #3F292B">
-            <%= @game.player_2.name %> points: <%= @game.player_2.hitpoints %>
+            <%= @game.opponent_of(@game.current_turn).name %> points: <%= @game.opponent_of(@game.current_turn).hitpoints %>
         </h3>
-        <h2 style="color: #097714"> <%= @game.current_turn.name %>'s turn </h2>
+<h2 style="font-size: 30px; color: #394740"> <%= @game.opponent_of(@game.current_turn).name %>'s turn </h2>
+
+<form action="/switch-turns" method="post">
+  <input type="submit" value="ok" style="font-size: 40px; color: black; background-color: #F26419;">
+</form> 
+
     </div>
 </div>
