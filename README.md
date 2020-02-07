@@ -24,7 +24,7 @@ As Player 1:
 Ruby, Sinatra, HTML, CSS
 
 ###### How to run
-_link tba_
+[never-ending-battle.herokuapp.com](https://never-ending-battle.herokuapp.com/)
 
 ###### Testing
 * Feature/browser testing with Capybara: `rackup`
