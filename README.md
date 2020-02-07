@@ -8,7 +8,7 @@ Now that we have a basic understanding of HTTP, response-request mechanisms, Sin
 
 As two Players
 - [x] We want to Start a fight by entering our Names and seeing them
-- [ ] As two Players, We want to switch turns
+- [x] As two Players, We want to switch turns
 
 As Player 1:
 - [x] I want to see Player 2's Hit Points

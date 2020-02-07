@@ -1,15 +1,10 @@
-<div style=" background: #EDDE5C;
-	width: 100%;
-	height: 100%;
-	position: fixed;
-	top: 0;
-	left: 0; ">
+<div style=" background: #EDDE5C;width: 100%;height: 100%;position: fixed;	top: 0;left: 0; ">
     <div style="font-size: 20px; color: #F7EDF0; text-align: center; margin: 200px auto;">
-<h2 style="color:#9B2915">
-<%= @game.player_1.name %> attacked <%= @game.player_2.name %> !</h2>
-</h2>
-<h3 style="color: #3F292B">
-<%= @game.player_2.name %> points: <%= @game.player_2.hitpoints %>
-</h3>
-</div>
+        <h2 style="color:#9B2915">
+            <%= @game.player_1.name %> attacked <%= @game.player_2.name %> !</h2></h2>
+        <h3 style="color: #3F292B">
+            <%= @game.player_2.name %> points: <%= @game.player_2.hitpoints %>
+        </h3>
+        <h2 style="color: #097714"> <%= @game.current_turn.name %>'s turn </h2>
+    </div>
 </div>
