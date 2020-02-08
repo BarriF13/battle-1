@@ -6,9 +6,9 @@ With a basic understanding of HTTP, response-request mechanisms, Sinatra, and Ca
 
 ###### Battle capabilities:
 
-As two Players
-- [x] We want to Start a fight by entering our Names and seeing them
-- [x] As two Players, We want to switch turns
+As two Players ee want to
+- [x] Start a fight by entering our Names and seeing them
+- [x] Switch turns
 
 As Player 1:
 - [x] I want to see Player 2's Hit Points
