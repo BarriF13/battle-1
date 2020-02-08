@@ -1,12 +1,12 @@
 ### Battle
-=========================
+===========
  
 ###### The idea
 With a basic understanding of HTTP, response-request mechanisms, Sinatra, and Capybara, this is a project that uses these technologies.
 
 ###### Battle capabilities:
 
-As two Players ee want to
+As two Players we want to
 - [x] Start a fight by entering our Names and seeing them
 - [x] Switch turns
 
